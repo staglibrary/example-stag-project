@@ -4,7 +4,7 @@
 
 int main() {
   // Create a STAG graph object.
-  stag_int n = 10;
+  StagInt n = 10;
   stag::Graph myGraph = stag::barbell_graph(n);
 
   // Apply the spectral clustering algorithm to the graph
